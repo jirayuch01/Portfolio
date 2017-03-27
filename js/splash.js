@@ -1,0 +1,1 @@
+(function(){var a=document.getElementById("preload");var d=0;var c=setInterval(b,64);function b(){if(d==100){clearInterval(c);window.open("home.html","_self")}else{d=d+1;if(d==90){a.style.animation="fadeout 1s ease"}}}})();

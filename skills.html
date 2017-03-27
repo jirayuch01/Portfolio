@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+
+<head>
+    <title>Portfolio | Skills</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.barCharts.css">
+    <link rel="stylesheet" href="css/tech.css">
+    <style>
+        .barChart__barFill {
+            background-color: #F39C12
+        }
+
+        .barChart__bar {
+            height: 24px;
+        }
+    </style>
+    <style type="text/css">
+        body,
+        a:hover {
+            cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur97.cur?v=1001), progress !important;
+        }
+    </style>
+    <style type="text/css">
+        .loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+        }
+    </style>
+</head>
+
+<body class="page1" id="top">
+    <div class="loader"></div>
+    <!--==============================
+                  header
+        ===============================-->
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <br>
+                        <h1><a href="index.html">Capturing Life <br> photographer </a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="stuck_container">
+
+            <!--==============================
+                          Stuck menu
+                ================================-->
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12 ">
+                        <h1 class="logo">
+                                <a href="index.html">
+                                    Photo.Folio
+                                </a>
+                            </h1>
+                        <div class="navigation ">
+                            <nav class=" navbar-default" role="navigation">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="myNavbar">
+                                        <ul class="sf-menu nav navbar-nav">
+                                            <li><a href="home.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li class="current"><a href="skills.html">Skills</a></li>
+                                            <li><a href="works.html"> Works</a></li>
+                                            <li><a href="contacts.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--=====================
+                Content
+        ======================-->
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="blog">
+                        <h3 style="color: #BA55D3;"><i class="fa fa-pencil-square-o"></i> IT related skills</h3><br>
+                        <p style="font-size: 40px; text-indent: 50px;"><i class="fa fa-terminal"></i> Programming languages</p>
+                        <p style="font-size: 20px; text-indent: 160px;">Intro about my skills goes here. Keep the list lean and only show my primary skillset.</p><br>
+                        <div class="barChart">
+                            <div class="barChart__row" data-value="55">
+                                <span class="barChart__label">C</span>
+                                <span class="barChart__value">55%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="75">
+                                <span class="barChart__label">JAVA</span>
+                                <span class="barChart__value">75%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="80">
+                                <span class="barChart__label">LUA</span>
+                                <span class="barChart__value">85%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="80">
+                                <span class="barChart__label">c# (.NET)</span>
+                                <span class="barChart__value">80%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="75">
+                                <span class="barChart__label">PHP</span>
+                                <span class="barChart__value">75%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="80">
+                                <span class="barChart__label">HTML</span>
+                                <span class="barChart__value">80%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="85">
+                                <span class="barChart__label">CSS</span>
+                                <span class="barChart__value">85%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="70">
+                                <span class="barChart__label">JS</span>
+                                <span class="barChart__value">70%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="70">
+                                <span class="barChart__label">jQuery</span>
+                                <span class="barChart__value">70%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                            <div class="barChart__row" data-value="55">
+                                <span class="barChart__label">SQL</span>
+                                <span class="barChart__value">55%</span>
+                                <span class="barChart__bar"><span class="barChart__barFill"></span></span>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <p style="font-size: 40px; text-indent: 50px;"><i class="fa fa-terminal"></i> Technologies & Packages</p>
+                        <p style="font-size: 20px; text-indent: 160px;">
+                            With a solid background in Graphic Design and a strong and ever-growing knowledge of code, I provide modern, clean and beautiful websites that are adapted to your target.</p><br>
+                        <section class="container" style="padding: 50px 0; text-align: center;">
+                            <figure class="chart" data-percent="100">
+                                <figcaption>cfree</figcaption>
+                                <img class="html" src="images/icon_cfree.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>netbeans</figcaption>
+                                <img class="css" src="images/icon_netbeans.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>Corona</figcaption>
+                                <img class="javascript" src="images/icon_Corona.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>VS</figcaption>
+                                <img class="node" src="images/icon_VisualStudio.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>atom</figcaption>
+                                <img class="html" src="images/icon_atom.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>SonyVegas</figcaption>
+                                <img class="css" src="images/icon_SonyVegas.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                        </section>
+                        <section style="text-align: center;">
+                            <figure class="chart" data-percent="100">
+                                <figcaption>AE</figcaption>
+                                <img class="html" src="images/icon_aftereffect.jpg">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>audition</figcaption>
+                                <img class="css" src="images/icon_audition.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>Premiere</figcaption>
+                                <img class="javascript" src="images/icon_Premiere.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>Photoshop</figcaption>
+                                <img class="node" src="images/icon_Photoshop.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>word</figcaption>
+                                <img class="html" src="images/icon_word.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                            <figure class="chart" data-percent="100">
+                                <figcaption>powerpoint</figcaption>
+                                <img class="css" src="images/icon_powerpoint.png">
+                                <svg width="200" height="200">
+                                    <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                                    </svg>
+                            </figure>
+                        </section>
+                    </div>
+                    <div class="sep-1"></div>
+                    <div class="blog">
+                        <h3 style="color: #BA55D3;"><i class="fa fa-pencil-square-o"></i> Soft skills</h3>
+                        <div class="grid_12">
+                            <aside class="languages aside section">
+                                <br><br>
+                                <p style="font-size: 40px; text-indent: 50px;"><i class="fa fa-terminal"></i> Languages</p>
+                                <ul class="list-unstyled">
+                                    <li class="item" style="font-size: 20px;">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span class="title"><strong>Thai: </strong></span>
+                                        <span class="level">Native Speaker <br class="visible-xs"><i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                    </li>
+                                    <li class="item" style="font-size: 20px;">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span class="title"><strong>English:</strong></span>
+                                        <span class="level">Professional Proficiency <br class="visible-sm visible-xs"><i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <p style="font-size: 40px; text-indent: 63px;"><i class="fa fa-terminal"></i> Hobbies</p>
+                        <p style="font-size: 20px; text-indent: 215px;">
+                            I try to practice English language skills and I have interest study for a Master's degree or travel abroad.</p><br>
+                    </div>
+                    <div class="sep-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==============================
+                   footer
+        ===============================-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <h2>Designed with <i class="fa fa-heart"></i></h2>
+                    <div class="footer_phone">for Web App Developer</div>
+                    <a href="#" class="footer_mail">by Jirayu Chinnawong</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" id="toTop" class="fa fa-chevron-up"></a>
+    <a href="http://www.cursors-4u.com/cursor/2008/11/24/pink-pointer-2.html" target="_blank" title="Pink Pointer">
+<img src="images/cursor.png" border="0" alt="Pink Pointer" style="position:absolute; top: 0px; right: 0px;"></a>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/tmStickUp.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script>
+        $(window).load(function() {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+            $('#stuck_container').tmStickUp({});
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        })
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery.barChart.js"></script>
+    <script>
+        jQuery('.barChart').barChart({
+            easing: 'easeOutQuart'
+        });
+    </script>
+</body>
+
+</html>
